@@ -1,3 +1,5 @@
+from codecs import Codec
+
 mail = """
 Hi Jhon,
 
@@ -34,3 +36,11 @@ print(msg)
 print('Size of Course String ' + str(len(Course)))
 
 print(Course.upper())
+
+print(Course.replace("Beginner", "Fresher"))
+print(Course.replace("beginner", " Absolute Beginner"))  # Python is case sensitive  that why it will have no effect
+
+print('Python' in Course)  # Find Python in Course String return boolean value
+
+
+
