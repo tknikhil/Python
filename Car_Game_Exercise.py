@@ -13,10 +13,10 @@ while True:                                                                  # i
             print('Car is Started')
     elif command == "stop":
         if not started:
-            print('Car is Already stoped')
+            print('Car is Already stopped')
         else:
             started = False
-            print('Car is Stoped')
+            print('Car is Stopped')
     elif command == help:
         print('start : To Start the Car \nstop : To Stop the car\nquit : To Quit the game')
     elif command == quit:
